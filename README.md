@@ -1,3 +1,7 @@
+# LMS with Strapi
+
+Check out the React Native app for this project: [LMS Mobile App](https://github.com/Galaxies-dev/lms-react-native)!
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
@@ -59,3 +63,11 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+## 🚀 More
+
+**Take a shortcut from web developer to mobile development fluency with guided learning**
+
+Enjoyed this project? Learn to use React Native to build production-ready, native mobile apps for both iOS and Android based on your existing web development skills.
+
+<a href="https://galaxies.dev"><img src="banner.png" height="auto" width="100%"></a>

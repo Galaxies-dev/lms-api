@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_courses",
+  "info": {
+    "singularName": "user-course",
+    "pluralName": "user-courses",
+    "displayName": "User-course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course"
+    },
+    "clerkId": {
+      "type": "string"
+    },
+    "finished_percentage": {
+      "type": "integer",
+      "default": 0
+    },
+    "next_lesson_index": {
+      "type": "string"
+    }
+  }
+}

@@ -4,14 +4,15 @@
   "info": {
     "singularName": "course",
     "pluralName": "courses",
-    "displayName": "Course"
+    "displayName": "Course",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
     "description": {
@@ -22,6 +23,27 @@
       "relation": "oneToMany",
       "target": "api::lesson.lesson",
       "mappedBy": "course"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isPremium": {
+      "type": "boolean",
+      "default": false
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "revenuecatId": {
+      "type": "string"
     }
   }
 }
